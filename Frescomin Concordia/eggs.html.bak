@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eggs</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./cssTest.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+
+            <div class="item1">
+                <div class="item1-flex">
+                    <img id="logo-image1" class="logo-image2"
+                        src="./palm.jpeg" alt="Logo">
+                    <a class="logo" href="#"><span>Fres</span>comin</a>
+                </div>
+            </div>
+
+            <div class="item2">
+                <div class="item2-flex">
+                    <ul class="primary-nav">
+                        <li class="current"><a href="#">Home</a></li>
+                        <li><a href="#">All Products</a></li>
+                        <li><a href="#">Aisles</a></li>
+                    </ul>
+
+                    <ul class="secondary-nav">
+                        <li><a href="#bottom">More Info</a></li>
+                        <li class="SignIn"><a href="#">Sign In</a></li>
+                    </ul>
+                </div>
+
+                <img id="mobile-exit" class="mobile-menu-exit"
+                    src="./exit.svg" alt="Close Navigation">
+            </div>
+
+            <div class="item3">
+
+                <img id="mobile" class="mobile-menu" src="./menu.svg"
+                    alt="Open Navigation">
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="navbar2">
+        <div class="container">
+
+            <div class="item1">
+                <input type="text" placeholder="Search for a product">
+            </div>
+
+
+            <div class="item2">
+                <div class="item2-flex">
+                    <img id="cart-image1" class="cart-image2" src="./cart.png"
+                        alt="Cart">
+                    <a class="cart" href="#">Shopping Cart</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="ProdContainer">
+        <div class="ProdCont">
+            <div class="ProdImgCont">
+                <div class="ProdImg">
+                    <img class="productImg"
+                        src="https://www.simplyrecipes.com/thmb/35jQjKw_vCVZFfpiawO3P27Xkq4=/736x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2014__07__hard-boiled-eggs-horiz-800-429f7e9948b84a6d84237e228f9d54f2.jpg"
+                        alt="">
+                </div>
+            </div>
+            <div class="ProdDes">
+                <h3 class="Producttitle">
+                   Eggs
+                </h3>
+    
+                <p class="priceTag">
+                    $10.00 per box of 12
+                </p>
+    
+                <form class="formAction" action="#">
+    
+                    <label class="quantity" for="quantity">Quantity: </label>
+                    
+                    <div class="qunatityContainer">
+                        <input class="rangeButton" type="button" value="-">
+                        <input class="quantityBotton " type="number" value="1" id="quantity" name="quantity" min="1">
+                        <input class="rangeButton" type="button" value="+">
+                    </div>
+                
+                    <button class="AddCart"><strong>Add to Cart</strong></button>
+                </form>
+    
+    
+                <h2>More Description</h2>
+                <p class="description">
+                    Great Value Large Eggs. Great Value has the everyday essentials your family needs with guaranteed, money-back quality. From breakfast to baking, Great Value eggs can’t be beat!
+                </p>
+    
+    
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+<section id="bottom" class="info-section">
+    <div class="container">
+        <div class="info">
+            <div class="left">
+                <h2>Get To Know Us</h2>
+
+                <ul class="know-us">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <h2>Customer Service</h2>
+
+                <ul class="know-us">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms And Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
