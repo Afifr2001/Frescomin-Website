@@ -109,12 +109,12 @@
 					</div>
 				</li>
                 <li>
-					<a href="./steak.html" class="spot1">
-						<img src="./steak.jpg" alt="Steak">
+					<a href="./eggs.html" class="spot1">
+						<img src="https://www.simplyrecipes.com/thmb/35jQjKw_vCVZFfpiawO3P27Xkq4=/736x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2014__07__hard-boiled-eggs-horiz-800-429f7e9948b84a6d84237e228f9d54f2.jpg" alt="Eggs">
 					</a>
 					<div class="spot-flex">
-						<a class="cart1" href="./steak.html">
-							<p>Steak</p>
+						<a class="cart1" href="./eggs.html">
+							<p>Eggs</p>
 						</a>
 						<a class="cart" href="#">
 							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">

@@ -200,96 +200,96 @@
 					</div>
 			   </li>
 				<li>
-					<a href="./yogurt.html" class="spot1">
-						<img src="./yogurt.jpg" alt="Yogurt">
+					<a href="./eggs.html" class="spot1">
+						<img src="https://www.simplyrecipes.com/thmb/35jQjKw_vCVZFfpiawO3P27Xkq4=/736x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2014__07__hard-boiled-eggs-horiz-800-429f7e9948b84a6d84237e228f9d54f2.jpg" alt="Eggs">
 					</a>
 					<div class="spot-flex">
-						<a class="cart1" href="./yogurt.html">
-							<p>Yogurt</p>
+						<a class="cart1" href="./eggs.html">
+							<p>Eggs</p>
 						</a>
 						<a class="cart" href="#">
 							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
 						</a>
 					</div>
-			   </li>
+                </li>
 				<li>
-					<a href="./yogurt.html" class="spot1">
-						<img src="./yogurt.jpg" alt="Yogurt">
+					<a href="./proteinpowders.html" class="spot1">
+						<img src="https://www.bodybuilding.com/images/2021/january/best-proteins-of-2021-header-830x467.jpg" alt="Protein Powder">
 					</a>
 					<div class="spot-flex">
-						<a class="cart1" href="./yogurt.html">
-							<p>Yogurt</p>
+						<a class="cart1" href="./proteinpowders.html">
+							<p>Protein Powder</p>
 						</a>
 						<a class="cart" href="#">
 							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
 						</a>
 					</div>
-			   </li>
+                </li>
+			   <li>
+					<a href="./salmon.html" class="spot1">
+						<img src="https://www.onceuponachef.com/images/2018/02/pan-seared-salmon--850x700.jpg" alt="Salmon">
+					</a>
+					<div class="spot-flex">
+						<a class="cart1" href="./salmon.html">
+							<p>Salmon</p>
+						</a>
+						<a class="cart" href="#">
+							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
+						</a>
+					</div>
+                </li>
+			   <li>
+					<a href="./turkey.html" class="spot1">
+						<img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2Fcab79c52e3965d95b574de4f61d5958c85b61304" alt="Turkey">
+					</a>
+					<div class="spot-flex">
+						<a class="cart1" href="./turkey.html">
+							<p>Turkey</p>
+						</a>
+						<a class="cart" href="#">
+							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
+						</a>
+					</div>
+                </li>
 				<li>
-					<a href="./yogurt.html" class="spot1">
-						<img src="./yogurt.jpg" alt="Yogurt">
+					<a href="./grapes.html" class="spot1">
+						<img src="https://www.eatthis.com/wp-content/uploads/sites/4/2019/09/green-grapes-bunch.jpg?fit=1200%2C879&ssl=1" alt="Grapes">
 					</a>
 					<div class="spot-flex">
-						<a class="cart1" href="./yogurt.html">
-							<p>Yogurt</p>
+						<a class="cart1" href="./grapes.html">
+							<p>Grapes</p>
 						</a>
 						<a class="cart" href="#">
 							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
 						</a>
 					</div>
-			   </li>
-				<li>
-					<a href="./yogurt.html" class="spot1">
-						<img src="./yogurt.jpg" alt="Yogurt">
+                </li>
+			   <li>
+					<a href="./oranges.html" class="spot1">
+						<img src="https://www.eatthis.com/wp-content/uploads/sites/4/2021/07/whole-halved-oranges.jpg" alt="Oranges">
 					</a>
 					<div class="spot-flex">
-						<a class="cart1" href="./yogurt.html">
-							<p>Yogurt</p>
+						<a class="cart1" href="./oranges.html">
+							<p>Oranges</p>
 						</a>
 						<a class="cart" href="#">
 							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
 						</a>
 					</div>
-			   </li>
-				<li>
-					<a href="./yogurt.html" class="spot1">
-						<img src="./yogurt.jpg" alt="Yogurt">
+                </li>
+			   <li>
+					<a href="./sweetpepper.html" class="spot1">
+						<img src="https://www.naturefresh.ca/wp-content/uploads/types-of-bell-peppers-guide-hero-image.jpg" alt="Sweet Pepper">
 					</a>
 					<div class="spot-flex">
-						<a class="cart1" href="./yogurt.html">
-							<p>Yogurt</p>
+						<a class="cart1" href="./sweetpepper.html">
+							<p>Sweet Pepper</p>
 						</a>
 						<a class="cart" href="#">
 							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
 						</a>
 					</div>
-			   </li>
-				<li>
-					<a href="./yogurt.html" class="spot1">
-						<img src="./yogurt.jpg" alt="Yogurt">
-					</a>
-					<div class="spot-flex">
-						<a class="cart1" href="./yogurt.html">
-							<p>Yogurt</p>
-						</a>
-						<a class="cart" href="#">
-							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
-						</a>
-					</div>
-			   </li>
-				<li>
-					<a href="./yogurt.html" class="spot1">
-						<img src="./yogurt.jpg" alt="Yogurt">
-					</a>
-					<div class="spot-flex">
-						<a class="cart1" href="./yogurt.html">
-							<p>Yogurt</p>
-						</a>
-						<a class="cart" href="#">
-							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
-						</a>
-					</div>
-			   </li>
+                </li>
 				<li>
 					<a href="./yogurt.html" class="spot1">
 						<img src="./yogurt.jpg" alt="Yogurt">
