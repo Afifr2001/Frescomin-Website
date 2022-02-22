@@ -214,7 +214,7 @@
                 </li>
 				<li>
 					<a href="./proteinpowders.html" class="spot1">
-						<img src="https://www.bodybuilding.com/images/2021/january/best-proteins-of-2021-header-830x467.jpg" alt="Protein Powder">
+						<img src="./proteinpowder.jpg" alt="Protein Powder">
 					</a>
 					<div class="spot-flex">
 						<a class="cart1" href="./proteinpowders.html">
@@ -291,31 +291,31 @@
 					</div>
                 </li>
 				<li>
-					<a href="./yogurt.html" class="spot1">
-						<img src="./yogurt.jpg" alt="Yogurt">
+					<a href="./butter.html" class="spot1">
+						<img src="./butter.jpg" alt="Butter">
 					</a>
 					<div class="spot-flex">
-						<a class="cart1" href="./yogurt.html">
-							<p>Yogurt</p>
+						<a class="cart1" href="./butter.html">
+							<p>Butter</p>
 						</a>
 						<a class="cart" href="#">
 							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
 						</a>
 					</div>
-			   </li>
-				<li>
-					<a href="./yogurt.html" class="spot1">
-						<img src="./yogurt.jpg" alt="Yogurt">
+                </li>
+			   <li>
+					<a href="./oatcrackers.html" class="spot1">
+						<img src="https://mykidslickthebowl.com/wp-content/uploads/2017/05/chickpea-oat-crackers-sq-1-720x540.jpg" alt="Oat Crackers">
 					</a>
 					<div class="spot-flex">
-						<a class="cart1" href="./yogurt.html">
-							<p>Yogurt</p>
+						<a class="cart1" href="./oatcrackers.html">
+							<p>Oat Crackers</p>
 						</a>
 						<a class="cart" href="#">
 							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
 						</a>
 					</div>
-			   </li>
+                </li>
             </ul>
         </div>
     </section>

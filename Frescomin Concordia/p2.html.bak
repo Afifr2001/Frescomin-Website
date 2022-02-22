@@ -122,12 +122,12 @@
 					</div>
                 </li>
 			   <li>
-					<a href="./steak.html" class="spot1">
-						<img src="./steak.jpg" alt="Steak">
+					<a href="./proteinpowders.html" class="spot1">
+						<img src="./proteinpowder.jpg" alt="Protein Powder">
 					</a>
 					<div class="spot-flex">
-						<a class="cart1" href="./steak.html">
-							<p>Steak</p>
+						<a class="cart1" href="./proteinpowders.html">
+							<p>Protein Powder</p>
 						</a>
 						<a class="cart" href="#">
 							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
@@ -135,12 +135,12 @@
 					</div>
                 </li>
 			   <li>
-					<a href="./steak.html" class="spot1">
-						<img src="./steak.jpg" alt="Steak">
+					<a href="./salmon.html" class="spot1">
+						<img src="https://www.onceuponachef.com/images/2018/02/pan-seared-salmon--850x700.jpg" alt="Salmon">
 					</a>
 					<div class="spot-flex">
-						<a class="cart1" href="./steak.html">
-							<p>Steak</p>
+						<a class="cart1" href="./salmon.html">
+							<p>Salmon</p>
 						</a>
 						<a class="cart" href="#">
 							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
@@ -148,12 +148,12 @@
 					</div>
                 </li>
 			   <li>
-					<a href="./steak.html" class="spot1">
-						<img src="./steak.jpg" alt="Steak">
+					<a href="./turkey.html" class="spot1">
+						<img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2Fcab79c52e3965d95b574de4f61d5958c85b61304" alt="Turkey">
 					</a>
 					<div class="spot-flex">
-						<a class="cart1" href="./steak.html">
-							<p>Steak</p>
+						<a class="cart1" href="./turkey.html">
+							<p>Turkey</p>
 						</a>
 						<a class="cart" href="#">
 							<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
