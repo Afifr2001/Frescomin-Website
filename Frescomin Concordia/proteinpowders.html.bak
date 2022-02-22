@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Broccolis</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./p2Css.css">
-
 </head>
+
 <body>
     <div class="navbar">
 		<div class = "container">
@@ -82,17 +77,17 @@
             <div class="ProdImgCont">
                 <div class="ProdImg">
                     <img class="productImg"
-                        src="https://img.cuisineaz.com/660x660/2018/11/09/i144056-brocolis-au-cookeo.webp"
+                        src="https://www.bodybuilding.com/images/2021/january/best-proteins-of-2021-header-830x467.jpg"
                         alt="">
                 </div>
             </div>
             <div class="ProdDes">
                 <h3 class="Producttitle">
-                    Broccolis
+                    Protein powders 
                 </h3>
     
                 <p class="priceTag">
-                    $0.73 per kg
+                    $10 per container
                 </p>
     
                 <form class="formAction" action="#">
@@ -111,7 +106,7 @@
     
                 <h2>More Description</h2>
                 <p class="description">
-                    The flowering head of broccoli can be served with any meal. It tastes great steamed, boiled, baked and is a fresh and healthy side dish. Families have enjoyed a fresh plate of broccoli with their meals for generations.
+                    No matter if you're looking to build muscle, lose weight, or just be healthier, there's a protein powder to help you do it. Our team of fitness editors, athletes, and nutrition advisors chose the best protein powders for every goal based on nutritional quality, taste, value, and customer feedback.
                 </p>
     
     
@@ -126,5 +121,30 @@
 
 
 <section id="bottom" class="info-section">
+    <div class="container">
+        <div class="info">
+            <div class="left">
+                <h2>Get To Know Us</h2>
+
+                <ul class="know-us">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <h2>Customer Service</h2>
+
+                <ul class="know-us">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms And Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
 </body>
 </html>

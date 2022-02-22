@@ -25,9 +25,9 @@
                 <div class="item2">
                     <div class="item2-flex">
                         <ul class="primary-nav">
-                            <li><a href="./index.html">Home</a></li>
+                            <li class="current"><a href="./index.html">Home</a></li>
                             <li><a href="./p2(all).html">All Products</a></li>
-                            <li class="current"><a href="./p2.html">Aisles</a></li>
+                            <li><a href="./p2.html">Aisles</a></li>
                         </ul>
     
                         <ul class="secondary-nav">
@@ -58,8 +58,8 @@
                 <div class="item3">
                     <div class="item3-flex">
                         <ul class="aisle-item">
-                                <li class="current"><a href="./p2.html">Protein</a></li>
-                                <li><a href="./p2(2).html">Fruits &amp Vegetables</a></li>
+                                <li><a href="./p2.html">Protein</a></li>
+                                <li class="current"><a href="./p2(2).html">Fruits &amp Vegetables</a></li>
                                 <li><a href="./p2(3).html">Dairy</a></li>
                         </ul>
                     </div>
@@ -82,17 +82,17 @@
                 <div class="ProdImgCont">
                     <div class="ProdImg">
                         <img class="productImg"
-                            src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2Fcab79c52e3965d95b574de4f61d5958c85b61304"
+                            src="https://www.eatthis.com/wp-content/uploads/sites/4/2021/07/whole-halved-oranges.jpg"
                             alt="">
                     </div>
                 </div>
                 <div class="ProdDes">
                     <h3 class="Producttitle">
-                        Turkey
+                        Oranges
                     </h3>
         
                     <p class="priceTag">
-                        $3.20 avg. ea.
+                        $10 per kg
                     </p>
         
                     <form class="formAction" action="#">
@@ -111,7 +111,7 @@
         
                     <h2>More Description</h2>
                     <p class="description">
-                        It's also gluten free and packed with protein for an amazingly nutritious main course any time of year, with days of leftovers! It comes premium basted with a gravy packet and has a convenient pop-up timer to help you know when it's ready. (Always confirm doneness with a meat thermometer.) 
+                        Your Fresh Market Oranges are highly nutritious and delicious citrus fruit, loaded with vitamin C, always fresh and juicy. Sweet and tangy and the perfect grab-and-go healthy snack, they are versatile and can be served in so many different ways. Enjoy these oranges juiced, use the zested peel for a tangy addition to desserts or cakes or a delicious citrus competent for a chicken glaze. 
                     </p>
         
         

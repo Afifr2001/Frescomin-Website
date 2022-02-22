@@ -25,9 +25,9 @@
                 <div class="item2">
                     <div class="item2-flex">
                         <ul class="primary-nav">
-                            <li><a href="./index.html">Home</a></li>
+                            <li class="current"><a href="./index.html">Home</a></li>
                             <li><a href="./p2(all).html">All Products</a></li>
-                            <li class="current"><a href="./p2.html">Aisles</a></li>
+                            <li><a href="./p2.html">Aisles</a></li>
                         </ul>
     
                         <ul class="secondary-nav">
@@ -82,17 +82,17 @@
                 <div class="ProdImgCont">
                     <div class="ProdImg">
                         <img class="productImg"
-                            src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2Fcab79c52e3965d95b574de4f61d5958c85b61304"
+                            src="https://w7.pngwing.com/pngs/751/771/png-transparent-cream-milk-butter-dairy-products-food-butter-cheese-cream-cheese-beyaz-peynir.png"
                             alt="">
                     </div>
                 </div>
                 <div class="ProdDes">
                     <h3 class="Producttitle">
-                        Turkey
+                        Butter
                     </h3>
         
                     <p class="priceTag">
-                        $3.20 avg. ea.
+                        $6.00 per container
                     </p>
         
                     <form class="formAction" action="#">
@@ -111,7 +111,9 @@
         
                     <h2>More Description</h2>
                     <p class="description">
-                        It's also gluten free and packed with protein for an amazingly nutritious main course any time of year, with days of leftovers! It comes premium basted with a gravy packet and has a convenient pop-up timer to help you know when it's ready. (Always confirm doneness with a meat thermometer.) 
+                        Ideal for cooking, baking or spreading, Becel Original can be used as a 1:1 swap for butter in your favourite sweet or savoury dish.
+
+                        A healthy diet low in saturated and trans fats may reduce the risk of heart disease. Becel is low in saturated fat and has no trans fat. No artificial preservatives, flavours or colours. Made with plant-based oils.
                     </p>
         
         
