@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frescomin</title>
+    <link rel="stylesheet" href="./cssTest.css">
+</head>
+<body>
+	<div class="navbar">
+		<div class = "container">
+		
+			<div class="item1">
+				<div class="item1-flex">
+					<a  href="./index.html">
+						<img id="logo-image1" class="logo-image2" src="./palm.jpeg" alt="Logo">
+					</a>
+					<a class="logo" href="./index.html"><span>Fres</span>comin</a>
+				</div>
+			</div>
+			
+			<div id="nav" class="item2">
+				
+				<img id="mobile-exit" class="mobile-menu-exit" src="./exit.svg" alt="Close Navigation">
+				
+				
+                <div class="item2-flex1">
+					<ul class="primary-nav">
+						<li class="current"><a href="./index.html">Home</a></li>
+						<li><a href="./p2(all).html">All Products</a></li>
+						<li><a href="./p2.html">Aisles</a></li>
+					</ul>
+
+					<ul class="secondary-nav">
+						<li><a href="#bottom">More Info</a></li>
+						<li class="SignIn"><a href="./LoginPage.html">Sign In</a></li>
+					</ul>
+				</div>
+			
+			</div>
+			
+			<div class="item3">
+			
+				<img id="mobile" class="mobile-menu" src="./menu.svg" alt="Open Navigation">
+			
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="navbar2">
+		<div class = "container">
+		
+			<div class="item1">
+				<input type="text" placeholder="Search for a product">
+			</div>
+			
+		
+			<div class="item2">
+				<div class="item2-flex">
+					<a  href="./shoppingcart.html">
+						<img id="cart-image1" class="cart-image2" src="./cart.png" alt="Cart">
+					</a>
+					<a class="cart" href="./shoppingcart.html">Shopping Cart</a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<section class="special">
+        <div class="container">
+            <div class="special-title">
+                <h1>Special <span>Fresh</span> Combo Of The Day</h1>
+
+                <div class="special-section">
+                    <a href="#" class="fresher">Fresher Than Fresh</a>
+                </div>
+            </div>
+			<a href="#" class="special-image">
+                <img class="special-image" src="./fresh.jpeg" alt="Special">
+            </a>
+        </div>
+    </section>
+	
+	<section id = "aisles" class="aisle-section">
+        <div class="container">
+            <ul>
+                <li>
+					<a href="./p2.html" class =" fixx"><p>Protein</p></a>
+					<a href="./p2.html" class="protein-image">
+						<img src="./protein.jpeg" alt="Protein">
+					</a>
+                </li>
+                <li>
+					<a href="./p2(2).html" class =" fixx"><p>Fruits &amp Vegetables</p></a>
+					<a href="./p2(2).html" class="fruit-image">
+						<img src="./fruits.jpeg" alt="Fruits And Vegetables">
+					</a>
+				</li>
+                <li>
+					<a href="./p2(3).html" class =" fixx"><p>Dairy</p></a>
+					<a href="./p2(3).html" class="dairy-image">
+						<img src="./dairy.jpeg" alt="Dairy">
+					</a>
+			   </li>
+            </ul>
+        </div>
+    </section>
+	
+	<section id = "bottom" class="info-section">
+        <div class="container">
+            <div class="info">
+				<div class ="left">
+					<h2>Get To Know Us</h2>
+						
+					<ul class="know-us">
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+				</div>
+				
+				<div class ="right">
+					<h2>Customer Service</h2>
+					
+					<ul class="know-us">
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Terms And Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</div>
+		  
+            </div>
+        </div>
+    </section>
+	
+</body>
+</html>
