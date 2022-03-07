@@ -62,8 +62,8 @@
                     <div class="item3-flex">
                         <ul class="aisle-item">
                                 <li><a href="./p2.html">Protein</a></li>
-                                <li class="current"><a href="./p2(2).html">Fruits &amp Vegetables</a></li>
-                                <li><a href="./p2(3).html">Dairy</a></li>
+                                <li><a href="./p2(2).html">Fruits &amp Vegetables</a></li>
+                                <li class="current"><a href="./p2(3).html">Dairy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -85,17 +85,17 @@
                 <div class="ProdImgCont">
                     <div class="ProdImg">
                         <img class="productImg"
-                            src="https://www.eatthis.com/wp-content/uploads/sites/4/2021/07/whole-halved-oranges.jpg"
+                            src="https://mykidslickthebowl.com/wp-content/uploads/2017/05/chickpea-oat-crackers-sq-1-720x540.jpg"
                             alt="">
                     </div>
                 </div>
                 <div class="ProdDes">
                     <h3 class="Producttitle">
-                        Oranges
+                        Oat crackers 
                     </h3>
         
                     <p class="priceTag">
-                        $10 per kg
+                        $3.25 per container
                     </p>
         
                     <form class="formAction" action="#">
@@ -114,7 +114,7 @@
         
                     <h2>More Description</h2>
                     <p class="description">
-                        Your Fresh Market Oranges are highly nutritious and delicious citrus fruit, loaded with vitamin C, always fresh and juicy. Sweet and tangy and the perfect grab-and-go healthy snack, they are versatile and can be served in so many different ways. Enjoy these oranges juiced, use the zested peel for a tangy addition to desserts or cakes or a delicious citrus competent for a chicken glaze. 
+                        classic oat crackers loved by Canadians and shared amongst family and friends. This rich and buttery tasting, flaky, melt in your mouth cracker is ideal for pairing with a variety of toppings like cheese, meat, dips or spreads and oats. A taste of welcome.
                     </p>
         
         
@@ -154,20 +154,5 @@
             </div>
         </div>
     </section>
-	<script>
-
-        const mobileBtn = document.getElementById('mobile');
-        const nav = document.getElementById('nav');
-        const mobileBtnExit = document.getElementById('mobile-exit');
-
-        mobileBtn.addEventListener('click', () => {
-			nav.classList.add('menu-btn');
-        })
-
-        mobileBtnExit.addEventListener('click', () => {
-            nav.classList.remove('menu-btn');
-        })
-
-	</script>
     </body>
 </html>

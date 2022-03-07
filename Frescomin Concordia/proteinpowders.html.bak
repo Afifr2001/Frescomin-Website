@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milk</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./p2Css.css">
-
 </head>
+
 <body>
-  <div class="navbar">
+    <div class="navbar">
 		<div class = "container">
 		
 			<div class="item1">
@@ -51,9 +46,7 @@
 		</div>
 	</div>
 
-
-
-	<div class="navbar2">
+    <div class="navbar2">
 		<div class = "container">
 		
 			<div class="item1">
@@ -63,9 +56,9 @@
 			<div class="item3">
 				<div class="item3-flex">
 					<ul class="aisle-item">
-							<li><a href="./p2.html">Protein</a></li>
+							<li class="current"><a href="./p2.html">Protein</a></li>
 							<li><a href="./p2(2).html">Fruits &amp Vegetables</a></li>
-							<li class="current"><a href="./p2(3).html">Dairy</a></li>
+							<li><a href="./p2(3).html">Dairy</a></li>
 					</ul>
 				</div>
 			</div>
@@ -87,17 +80,17 @@
             <div class="ProdImgCont">
                 <div class="ProdImg">
                     <img class="productImg"
-                        src="https://www.healthcastle.com/wp-content/uploads/2016/11/natrel-trio-milk2-768x503.jpg"
+                        src="https://www.bodybuilding.com/images/2021/january/best-proteins-of-2021-header-830x467.jpg"
                         alt="">
                 </div>
             </div>
             <div class="ProdDes">
                 <h3 class="Producttitle">
-                    Milk
+                    Protein powders 
                 </h3>
     
                 <p class="priceTag">
-                    $5.69 avg. ea.
+                    $10 per container
                 </p>
     
                 <form class="formAction" action="#">
@@ -116,7 +109,7 @@
     
                 <h2>More Description</h2>
                 <p class="description">
-                    Nothing compares to a cold glass of fresh Naturel Milk. A light, refreshing and natural taste with immense nutritional value and lactose free! Naturel offers you quality milk in all varieties. Whether it’s Homogenized, 2%, 1% or skim milk, Naturel Milk provides an excellent source of calcium and vitamin D.
+                    No matter if you're looking to build muscle, lose weight, or just be healthier, there's a protein powder to help you do it. Our team of fitness editors, athletes, and nutrition advisors chose the best protein powders for every goal based on nutritional quality, taste, value, and customer feedback.
                 </p>
     
     
@@ -156,6 +149,7 @@
         </div>
     </div>
 </section>
+
 <script>
 
         const mobileBtn = document.getElementById('mobile');
@@ -171,5 +165,6 @@
         })
 
 	</script>
+
 </body>
 </html>

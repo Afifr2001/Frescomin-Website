@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milk</title>
+    <title>Eggs</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./p2Css.css">
-
 </head>
 <body>
-  <div class="navbar">
+    <div class="navbar">
 		<div class = "container">
 		
 			<div class="item1">
@@ -63,9 +62,9 @@
 			<div class="item3">
 				<div class="item3-flex">
 					<ul class="aisle-item">
-							<li><a href="./p2.html">Protein</a></li>
+							<li class="current"><a href="./p2.html">Protein</a></li>
 							<li><a href="./p2(2).html">Fruits &amp Vegetables</a></li>
-							<li class="current"><a href="./p2(3).html">Dairy</a></li>
+							<li><a href="./p2(3).html">Dairy</a></li>
 					</ul>
 				</div>
 			</div>
@@ -87,17 +86,17 @@
             <div class="ProdImgCont">
                 <div class="ProdImg">
                     <img class="productImg"
-                        src="https://www.healthcastle.com/wp-content/uploads/2016/11/natrel-trio-milk2-768x503.jpg"
+                        src="https://www.simplyrecipes.com/thmb/35jQjKw_vCVZFfpiawO3P27Xkq4=/736x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2014__07__hard-boiled-eggs-horiz-800-429f7e9948b84a6d84237e228f9d54f2.jpg"
                         alt="">
                 </div>
             </div>
             <div class="ProdDes">
                 <h3 class="Producttitle">
-                    Milk
+                   Eggs
                 </h3>
     
                 <p class="priceTag">
-                    $5.69 avg. ea.
+                    $10.00 per box of 12
                 </p>
     
                 <form class="formAction" action="#">
@@ -116,7 +115,7 @@
     
                 <h2>More Description</h2>
                 <p class="description">
-                    Nothing compares to a cold glass of fresh Naturel Milk. A light, refreshing and natural taste with immense nutritional value and lactose free! Naturel offers you quality milk in all varieties. Whether it’s Homogenized, 2%, 1% or skim milk, Naturel Milk provides an excellent source of calcium and vitamin D.
+                    Great Value Large Eggs. Great Value has the everyday essentials your family needs with guaranteed, money-back quality. From breakfast to baking, Great Value eggs can’t be beat!
                 </p>
     
     
@@ -156,20 +155,5 @@
         </div>
     </div>
 </section>
-<script>
-
-        const mobileBtn = document.getElementById('mobile');
-        const nav = document.getElementById('nav');
-        const mobileBtnExit = document.getElementById('mobile-exit');
-
-        mobileBtn.addEventListener('click', () => {
-			nav.classList.add('menu-btn');
-        })
-
-        mobileBtnExit.addEventListener('click', () => {
-            nav.classList.remove('menu-btn');
-        })
-
-	</script>
 </body>
 </html>

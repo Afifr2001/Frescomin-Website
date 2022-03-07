@@ -62,8 +62,8 @@
                     <div class="item3-flex">
                         <ul class="aisle-item">
                                 <li><a href="./p2.html">Protein</a></li>
-                                <li class="current"><a href="./p2(2).html">Fruits &amp Vegetables</a></li>
-                                <li><a href="./p2(3).html">Dairy</a></li>
+                                <li><a href="./p2(2).html">Fruits &amp Vegetables</a></li>
+                                <li class="current"><a href="./p2(3).html">Dairy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -85,17 +85,17 @@
                 <div class="ProdImgCont">
                     <div class="ProdImg">
                         <img class="productImg"
-                            src="https://www.eatthis.com/wp-content/uploads/sites/4/2021/07/whole-halved-oranges.jpg"
+                            src="https://w7.pngwing.com/pngs/751/771/png-transparent-cream-milk-butter-dairy-products-food-butter-cheese-cream-cheese-beyaz-peynir.png"
                             alt="">
                     </div>
                 </div>
                 <div class="ProdDes">
                     <h3 class="Producttitle">
-                        Oranges
+                        Butter
                     </h3>
         
                     <p class="priceTag">
-                        $10 per kg
+                        $6.00 per container
                     </p>
         
                     <form class="formAction" action="#">
@@ -114,7 +114,9 @@
         
                     <h2>More Description</h2>
                     <p class="description">
-                        Your Fresh Market Oranges are highly nutritious and delicious citrus fruit, loaded with vitamin C, always fresh and juicy. Sweet and tangy and the perfect grab-and-go healthy snack, they are versatile and can be served in so many different ways. Enjoy these oranges juiced, use the zested peel for a tangy addition to desserts or cakes or a delicious citrus competent for a chicken glaze. 
+                        Ideal for cooking, baking or spreading, Becel Original can be used as a 1:1 swap for butter in your favourite sweet or savoury dish.
+
+                        A healthy diet low in saturated and trans fats may reduce the risk of heart disease. Becel is low in saturated fat and has no trans fat. No artificial preservatives, flavours or colours. Made with plant-based oils.
                     </p>
         
         
@@ -154,20 +156,5 @@
             </div>
         </div>
     </section>
-	<script>
-
-        const mobileBtn = document.getElementById('mobile');
-        const nav = document.getElementById('nav');
-        const mobileBtnExit = document.getElementById('mobile-exit');
-
-        mobileBtn.addEventListener('click', () => {
-			nav.classList.add('menu-btn');
-        })
-
-        mobileBtnExit.addEventListener('click', () => {
-            nav.classList.remove('menu-btn');
-        })
-
-	</script>
     </body>
 </html>

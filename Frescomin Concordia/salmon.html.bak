@@ -11,45 +11,45 @@
     
     <body>
         <div class="navbar">
-			<div class = "container">
-			
-				<div class="item1">
-					<div class="item1-flex">
-						<a  href="./index.html">
-							<img id="logo-image1" class="logo-image2" src="./palm.jpeg" alt="Logo">
-						</a>
-						<a class="logo" href="./index.html"><span>Fres</span>comin</a>
-					</div>
+		<div class = "container">
+		
+			<div class="item1">
+				<div class="item1-flex">
+					<a  href="./index.html">
+						<img id="logo-image1" class="logo-image2" src="./palm.jpeg" alt="Logo">
+					</a>
+					<a class="logo" href="./index.html"><span>Fres</span>comin</a>
 				</div>
-				
-				<div id="nav" class="item2">
-					
-					<img id="mobile-exit" class="mobile-menu-exit" src="./exit.svg" alt="Close Navigation">
-					
-					
-					<div class="item2-flex1">
-						<ul class="primary-nav">
-							<li><a href="./index.html">Home</a></li>
-							<li><a href="./p2(all).html">All Products</a></li>
-							<li class="current"><a href="./p2.html">Aisles</a></li>
-						</ul>
-
-						<ul class="secondary-nav">
-							<li><a href="#bottom">More Info</a></li>
-							<li class="SignIn"><a href="./LoginPage.html">Sign In</a></li>
-						</ul>
-					</div>
-				
-				</div>
-				
-				<div class="item3">
-				
-					<img id="mobile" class="mobile-menu" src="./menu.svg" alt="Open Navigation">
-				
-				</div>
-				
 			</div>
+			
+			<div id="nav" class="item2">
+				
+				<img id="mobile-exit" class="mobile-menu-exit" src="./exit.svg" alt="Close Navigation">
+				
+				
+                <div class="item2-flex1">
+					<ul class="primary-nav">
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./p2(all).html">All Products</a></li>
+						<li class="current"><a href="./p2.html">Aisles</a></li>
+					</ul>
+
+					<ul class="secondary-nav">
+						<li><a href="#bottom">More Info</a></li>
+						<li class="SignIn"><a href="./LoginPage.html">Sign In</a></li>
+					</ul>
+				</div>
+			
+			</div>
+			
+			<div class="item3">
+			
+				<img id="mobile" class="mobile-menu" src="./menu.svg" alt="Open Navigation">
+			
+			</div>
+			
 		</div>
+	</div>
     
         <div class="navbar2">
             <div class = "container">
@@ -61,8 +61,8 @@
                 <div class="item3">
                     <div class="item3-flex">
                         <ul class="aisle-item">
-                                <li><a href="./p2.html">Protein</a></li>
-                                <li class="current"><a href="./p2(2).html">Fruits &amp Vegetables</a></li>
+                                <li class="current"><a href="./p2.html">Protein</a></li>
+                                <li><a href="./p2(2).html">Fruits &amp Vegetables</a></li>
                                 <li><a href="./p2(3).html">Dairy</a></li>
                         </ul>
                     </div>
@@ -85,17 +85,17 @@
                 <div class="ProdImgCont">
                     <div class="ProdImg">
                         <img class="productImg"
-                            src="https://www.eatthis.com/wp-content/uploads/sites/4/2021/07/whole-halved-oranges.jpg"
+                            src="https://www.onceuponachef.com/images/2018/02/pan-seared-salmon--850x700.jpg"
                             alt="">
                     </div>
                 </div>
                 <div class="ProdDes">
                     <h3 class="Producttitle">
-                        Oranges
+                        Salmon
                     </h3>
         
                     <p class="priceTag">
-                        $10 per kg
+                        $9.15 avg. ea.
                     </p>
         
                     <form class="formAction" action="#">
@@ -114,7 +114,7 @@
         
                     <h2>More Description</h2>
                     <p class="description">
-                        Your Fresh Market Oranges are highly nutritious and delicious citrus fruit, loaded with vitamin C, always fresh and juicy. Sweet and tangy and the perfect grab-and-go healthy snack, they are versatile and can be served in so many different ways. Enjoy these oranges juiced, use the zested peel for a tangy addition to desserts or cakes or a delicious citrus competent for a chicken glaze. 
+                        Your Fresh Market Canadian Atlantic Salmon Fillets are a good source of omega-3s. Salmon is a low-calorie protein. Also available in portions or steaks. Perfect for the grill! Value Pack. BAP Certified. 100% Satisfaction Guaranteed.
                     </p>
         
         

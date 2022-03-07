@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milk</title>
+    <title>Shop with us</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./p2Css.css">
 
 </head>
+
 <body>
-  <div class="navbar">
+    <div class="navbar">
 		<div class = "container">
 		
 			<div class="item1">
@@ -63,9 +65,9 @@
 			<div class="item3">
 				<div class="item3-flex">
 					<ul class="aisle-item">
-							<li><a href="./p2.html">Protein</a></li>
+							<li class="current"><a href="./p2.html">Protein</a></li>
 							<li><a href="./p2(2).html">Fruits &amp Vegetables</a></li>
-							<li class="current"><a href="./p2(3).html">Dairy</a></li>
+							<li><a href="./p2(3).html">Dairy</a></li>
 					</ul>
 				</div>
 			</div>
@@ -81,45 +83,44 @@
 			
 		</div>
 	</div>
-    
+
     <div class="ProdContainer">
         <div class="ProdCont">
             <div class="ProdImgCont">
                 <div class="ProdImg">
-                    <img class="productImg"
-                        src="https://www.healthcastle.com/wp-content/uploads/2016/11/natrel-trio-milk2-768x503.jpg"
-                        alt="">
+                    <img class="productImg" src="https://www.eatingonadime.com/wp-content/uploads/2014/09/Balsamic-Chicken-17.jpg" alt="">
                 </div>
             </div>
             <div class="ProdDes">
                 <h3 class="Producttitle">
-                    Milk
+                    Chicken
                 </h3>
-    
+
                 <p class="priceTag">
-                    $5.69 avg. ea.
+                    $3.11 avg. kg
                 </p>
-    
+
                 <form class="formAction" action="#">
-    
+
                     <label class="quantity" for="quantity">Quantity: </label>
-                    
+
                     <div class="qunatityContainer">
                         <input class="rangeButton" type="button" value="-">
                         <input class="quantityBotton " type="number" value="1" id="quantity" name="quantity" min="1">
                         <input class="rangeButton" type="button" value="+">
                     </div>
-                
+
                     <button class="AddCart"><strong>Add to Cart</strong></button>
                 </form>
-    
-    
+
+
                 <h2>More Description</h2>
                 <p class="description">
-                    Nothing compares to a cold glass of fresh Naturel Milk. A light, refreshing and natural taste with immense nutritional value and lactose free! Naturel offers you quality milk in all varieties. Whether it’s Homogenized, 2%, 1% or skim milk, Naturel Milk provides an excellent source of calcium and vitamin D.
+                    Prepare a quick delicious dinner with the Your Fresh Market AAA Angus Beef Stir Fry chicken Strips. Best prepared by stir frying, add your favourite seasoning and vegetables to create a delicious nutritious meal for your family and friends. Made with 100% Canadian AAA Angus chicken providing world class quality that you’ve come to expect from Canada Beef.
+
                 </p>
-    
-    
+
+
             </div>
         </div>
     </div>
@@ -156,20 +157,5 @@
         </div>
     </div>
 </section>
-<script>
-
-        const mobileBtn = document.getElementById('mobile');
-        const nav = document.getElementById('nav');
-        const mobileBtnExit = document.getElementById('mobile-exit');
-
-        mobileBtn.addEventListener('click', () => {
-			nav.classList.add('menu-btn');
-        })
-
-        mobileBtnExit.addEventListener('click', () => {
-            nav.classList.remove('menu-btn');
-        })
-
-	</script>
 </body>
 </html>

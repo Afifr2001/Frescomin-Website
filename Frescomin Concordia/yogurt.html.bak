@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milk</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Yougurt</title>
     <link rel="stylesheet" href="./p2Css.css">
-
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <div class="navbar">
+   <div class="navbar">
 		<div class = "container">
 		
 			<div class="item1">
@@ -87,17 +86,17 @@
             <div class="ProdImgCont">
                 <div class="ProdImg">
                     <img class="productImg"
-                        src="https://www.healthcastle.com/wp-content/uploads/2016/11/natrel-trio-milk2-768x503.jpg"
+                        src="https://www.oblanca.es/sites/default/files/receta_yogurmango.jpg"
                         alt="">
                 </div>
             </div>
             <div class="ProdDes">
                 <h3 class="Producttitle">
-                    Milk
+                    Yougurt
                 </h3>
     
                 <p class="priceTag">
-                    $5.69 avg. ea.
+                    $3.18 avg. ea.
                 </p>
     
                 <form class="formAction" action="#">
@@ -116,7 +115,7 @@
     
                 <h2>More Description</h2>
                 <p class="description">
-                    Nothing compares to a cold glass of fresh Naturel Milk. A light, refreshing and natural taste with immense nutritional value and lactose free! Naturel offers you quality milk in all varieties. Whether it’s Homogenized, 2%, 1% or skim milk, Naturel Milk provides an excellent source of calcium and vitamin D.
+                    Yogurt is a great source of protein, carbohydrates and fat. Full fat yogurt contains calcium, some vitamin A, B-vitamins, zinc and potassium. Mangoes contain fibre, beta-carotene, which converts to vitamin A and plenty vitamin C.
                 </p>
     
     
@@ -131,45 +130,7 @@
 
 
 <section id="bottom" class="info-section">
-    <div class="container">
-        <div class="info">
-            <div class="left">
-                <h2>Get To Know Us</h2>
 
-                <ul class="know-us">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Careers</a></li>
-                </ul>
-            </div>
-
-            <div class="right">
-                <h2>Customer Service</h2>
-
-                <ul class="know-us">
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Terms And Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-</section>
-<script>
-
-        const mobileBtn = document.getElementById('mobile');
-        const nav = document.getElementById('nav');
-        const mobileBtnExit = document.getElementById('mobile-exit');
-
-        mobileBtn.addEventListener('click', () => {
-			nav.classList.add('menu-btn');
-        })
-
-        mobileBtnExit.addEventListener('click', () => {
-            nav.classList.remove('menu-btn');
-        })
-
-	</script>
+    
 </body>
 </html>
