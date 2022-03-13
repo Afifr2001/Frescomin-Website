@@ -97,7 +97,7 @@
                 </h3>
 
                 <p class="priceTag">
-                    $3.11 avg. kg
+                    $<span class="price">3.11</span> avg. kg
                 </p>
 
                 <form class="formAction" action="#">
@@ -105,17 +105,17 @@
                     <label class="quantity" for="quantity">Quantity: </label>
 
                     <div class="qunatityContainer">
-                        <input class="rangeButton" type="button" value="-">
+                        <input class="rangeButton" type="button" value="-" onClick="minus()">
                         <input class="quantityBotton " type="number" value="1" id="quantity" name="quantity" min="1">
-                        <input class="rangeButton" type="button" value="+">
+                        <input class="rangeButton" type="button" value="+" onClick="plus()">
                     </div>
 
-                    <button class="AddCart"><strong>Add to Cart</strong></button>
+                    <button class="AddCart" onClick="addToCart(event,this)"><strong>Add to Cart</strong></button>
                 </form>
 
 
-                <h2>More Description</h2>
-                <p class="description">
+                <button class="AddCart" onclick="des(this)"><strong>More Description</strong></button>
+                <p class="description hidden">
                     Prepare a quick delicious dinner with the Your Fresh Market AAA Angus Beef Stir Fry chicken Strips. Best prepared by stir frying, add your favourite seasoning and vegetables to create a delicious nutritious meal for your family and friends. Made with 100% Canadian AAA Angus chicken providing world class quality that you’ve come to expect from Canada Beef.
 
                 </p>
@@ -157,6 +157,7 @@
         </div>
     </div>
 </section>
+<script src="products.js"></script>
 <script>
 
         const mobileBtn = document.getElementById('mobile');

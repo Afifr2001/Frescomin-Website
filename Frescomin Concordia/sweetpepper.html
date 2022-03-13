@@ -95,7 +95,7 @@
                     </h3>
         
                     <p class="priceTag">
-                        $0.50 avg. ea.
+                        $<span class="price">0.50 </span>avg. ea.
                     </p>
         
                     <form class="formAction" action="#">
@@ -103,17 +103,17 @@
                         <label class="quantity" for="quantity">Quantity: </label>
                         
                         <div class="qunatityContainer">
-                            <input class="rangeButton" type="button" value="-">
+                            <input class="rangeButton" type="button" value="-" onClick="minus()">
                             <input class="quantityBotton " type="number" value="1" id="quantity" name="quantity" min="1">
-                            <input class="rangeButton" type="button" value="+">
+                            <input class="rangeButton" type="button" value="+" onClick="plus()">
                         </div>
                     
-                        <button class="AddCart"><strong>Add to Cart</strong></button>
+                        <button class="AddCart"  onClick="addToCart(event,this)"><strong>Add to Cart</strong></button>
                     </form>
         
         
-                    <h2>More Description</h2>
-                    <p class="description">
+                    <button class="AddCart" onclick="des(this)"><strong>More Description</strong></button>
+                    <p class="description hidden">
                         These virtually seedless, bright red, yellow and orange assorted mini peppers have a surprisingly mild flavor. They look and taste very similar bell peppers, but are sweeter and smaller.
                     </p>
         
@@ -154,6 +154,7 @@
             </div>
         </div>
     </section>
+    
 	<script>
 
         const mobileBtn = document.getElementById('mobile');
@@ -169,5 +170,6 @@
         })
 
 	</script>
+    <script src="products.js"></script>
     </body>
 </html>

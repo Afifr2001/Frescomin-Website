@@ -98,17 +98,18 @@
                     <label class="quantity" for="quantity">Quantity: </label>
                     
                     <div class="qunatityContainer">
-                        <input class="rangeButton" type="button" value="-">
+                        <input class="rangeButton" type="button" value="-" onClick="minus()">
                         <input class="quantityBotton " type="number" value="1" id="quantity" name="quantity" min="1">
-                        <input class="rangeButton" type="button" value="+">
+                        <input class="rangeButton" type="button" value="+" onClick="plus()">
                     </div>
                 
                     <button class="AddCart"><strong>Add to Cart</strong></button>
                 </form>
     
     
-                <h2>More Description</h2>
-                <p class="description">
+               
+				<button class="AddCart" onclick="des(this)"><strong>More Description</strong></button>
+                <p class="description hidden">
                     No matter if you're looking to build muscle, lose weight, or just be healthier, there's a protein powder to help you do it. Our team of fitness editors, athletes, and nutrition advisors chose the best protein powders for every goal based on nutritional quality, taste, value, and customer feedback.
                 </p>
     
@@ -149,6 +150,7 @@
         </div>
     </div>
 </section>
+<script src="products.js"></script>
 
 <script>
 

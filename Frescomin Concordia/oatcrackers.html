@@ -95,7 +95,7 @@
                     </h3>
         
                     <p class="priceTag">
-                        $3.25 per container
+                        $<span class="price">3.25</span> per container
                     </p>
         
                     <form class="formAction" action="#">
@@ -103,17 +103,17 @@
                         <label class="quantity" for="quantity">Quantity: </label>
                         
                         <div class="qunatityContainer">
-                            <input class="rangeButton" type="button" value="-">
+                            <input class="rangeButton" type="button" value="-" onClick="minus()">
                             <input class="quantityBotton " type="number" value="1" id="quantity" name="quantity" min="1">
-                            <input class="rangeButton" type="button" value="+">
+                            <input class="rangeButton" type="button" value="+" onClick="plus()">
                         </div>
                     
-                        <button class="AddCart"><strong>Add to Cart</strong></button>
+                        <button class="AddCart" onClick="addToCart(event,this)"><strong>Add to Cart</strong></button>
                     </form>
         
         
-                    <h2>More Description</h2>
-                    <p class="description">
+                    <button class="AddCart" onclick="des(this)"><strong>More Description</strong></button>
+                    <p class="description hidden">
                         classic oat crackers loved by Canadians and shared amongst family and friends. This rich and buttery tasting, flaky, melt in your mouth cracker is ideal for pairing with a variety of toppings like cheese, meat, dips or spreads and oats. A taste of welcome.
                     </p>
         
@@ -154,6 +154,7 @@
             </div>
         </div>
     </section>
+    <script src="products.js"></script>
 	<script>
 
         const mobileBtn = document.getElementById('mobile');

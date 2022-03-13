@@ -97,7 +97,7 @@
                 </h3>
     
                 <p class="priceTag">
-                    $1.00 avg. ea.
+                    $<span class="price">1.00 </span>avg. ea.
                 </p>
     
                 <form class="formAction" action="#">
@@ -105,17 +105,17 @@
                     <label class="quantity" for="quantity">Quantity: </label>
                     
                     <div class="qunatityContainer">
-                        <input class="rangeButton" type="button" value="-">
+                        <input class="rangeButton" type="button" value="-" onClick="minus()">
                         <input class="quantityBotton " type="number" value="1" id="quantity" name="quantity" min="1">
-                        <input class="rangeButton" type="button" value="+">
+                        <input class="rangeButton" type="button" value="+" onClick="plus()">
                     </div>
                 
-                    <button class="AddCart"><strong>Add to Cart</strong></button>
+					<button class="AddCart" onClick="addToCart(event,this)"><strong>Add to Cart</strong></button>
                 </form>
     
     
-                <h2>More Description</h2>
-                <p class="description">
+				<button class="AddCart" onclick="des(this)"><strong>More Description</strong></button>
+				<p class="description hidden">
                     With over 60 years of cheese making experience, your trusted natural cheese is made from the finest ingredients, the best cultures and fresh Canadian milk with no artificial preservatives.
                 </p>
     
@@ -126,11 +126,39 @@
 
 
     </div>
+	<section id="bottom" class="info-section">
+        <script src="products.js"></script>
+        <div class="container">
+            <div class="info">
+                <div class="left">
+                    <h2>Get To Know Us</h2>
+
+                    <ul class="know-us">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="right">
+                    <h2>Customer Service</h2>
+
+                    <ul class="know-us">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms And Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
 
 
 <section id="bottom" class="info-section">
+	<script src="products.js"></script>
 <script>
 
         const mobileBtn = document.getElementById('mobile');

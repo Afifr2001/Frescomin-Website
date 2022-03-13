@@ -6,11 +6,22 @@
 }
 
 .ProdCont {
-    display: flex;
+    
     flex-direction: row;
     padding: 10px;
     width:70%;
     padding: 20px;
+    /* flex-direction: column; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-family: revert;
+   
+}
+@media(max-width:800px){
+    .ProdCont{
+        flex-direction: column;
+    }
 }
 
 .ProdImgCont {
@@ -31,6 +42,7 @@
     max-width: 100%;
     max-height: 100%;
     border-radius: 23px;
+    image-rendering: -webkit-optimize-contrast;
 }
 .productImgSteak{
     width: 117%;
@@ -44,6 +56,7 @@
 .Producttitle{
     margin: 0;
     font-size: 30px;
+   
 }
 .priceTag{
     font-size: 20px;
@@ -200,4 +213,10 @@
 }
 .quantityButton:hover{
     background-color: #64aa85;
+}
+.price{
+    color: black;
+}
+.hidden{
+    visibility: hidden;
 }

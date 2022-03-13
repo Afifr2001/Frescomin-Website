@@ -95,7 +95,7 @@
                     </h3>
         
                     <p class="priceTag">
-                        $10 per kg
+                        $<span class="price">10</span> per kg
                     </p>
         
                     <form class="formAction" action="#">
@@ -108,12 +108,12 @@
                             <input class="rangeButton" type="button" value="+">
                         </div>
                     
-                        <button class="AddCart"><strong>Add to Cart</strong></button>
+                        <button class="AddCart" onClick="addToCart(event,this)"><strong>Add to Cart</strong></button>
                     </form>
         
         
-                    <h2>More Description</h2>
-                    <p class="description">
+                    <button class="AddCart" onclick="des(this)"><strong>More Description</strong></button>
+                    <p class="description hidden">
                         Your Fresh Market Oranges are highly nutritious and delicious citrus fruit, loaded with vitamin C, always fresh and juicy. Sweet and tangy and the perfect grab-and-go healthy snack, they are versatile and can be served in so many different ways. Enjoy these oranges juiced, use the zested peel for a tangy addition to desserts or cakes or a delicious citrus competent for a chicken glaze. 
                     </p>
         
@@ -154,6 +154,7 @@
             </div>
         </div>
     </section>
+    <script src="products.js"></script>
 	<script>
 
         const mobileBtn = document.getElementById('mobile');
