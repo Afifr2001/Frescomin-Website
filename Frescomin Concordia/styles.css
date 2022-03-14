@@ -18,10 +18,11 @@
     font-family: revert;
    
 }
-@media(max-width:800px){
+@media (max-width:800px){
     .ProdCont{
         flex-direction: column;
     }
+    
 }
 
 .ProdImgCont {
