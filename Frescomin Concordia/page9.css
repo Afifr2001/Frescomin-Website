@@ -5,6 +5,38 @@ body {
     font-family: 'Calibri', sans-serif !important
 }
 
+
+.navbar .container{
+	display: flex;
+	justify-content: center;
+	background-color:
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 1.5em 0 0 0;
+}
+.navbar li {
+    display: inline;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.navbar a {
+    text-decoration: none;
+	font-size: 1.3em;
+	color: green;
+}
+.navbar a:hover {
+	font-weight: bold;
+}
+.current{
+	font-weight: bold;
+}
+
+
+
+
 h1{
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
