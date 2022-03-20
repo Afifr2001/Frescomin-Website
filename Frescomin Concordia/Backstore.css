@@ -1,6 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 
+
+.navbar .container{
+	display: flex;
+	justify-content: center;
+	background-color:
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 1.5em 0 0 0;
+}
+.navbar li {
+    display: inline;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.navbar a {
+    text-decoration: none;
+	font-size: 1.3em;
+	color: green;
+}
+.navbar a:hover {
+	font-weight: bold;
+}
+.current{
+	font-weight: bold;
+}
+
+
+
 img.Food{
     width: 20%;
     
