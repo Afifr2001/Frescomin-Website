@@ -38,6 +38,12 @@ Semester-long group assignment for SOEN 287 (Web Programming) at Concordia Unive
 * PHP (process data from a form, create sessions and pass data between pages)
 * JSON (database for products, orders, carts and user information)
 
+## Website Hosting
+
+Hosted using Gina Cody School of Engineering and Computer Science Public Access Servers.
+
+Main Contributer: Ryan Li
+
 # Front End
 ## Home page 
 <!--rayan put your work here-->
