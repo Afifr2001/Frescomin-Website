@@ -75,7 +75,7 @@ Work involved:
 - PHP for dynamic product page
 - JSON for database
 
-Main Contributer: Abdul-Hakim Skaik, Ryan Li
+Main Contributer: Abdul-Hakim Skaik
 
 ## Shopping Cart
 ![cart](https://user-images.githubusercontent.com/98859282/165855118-2689e237-0197-4c19-896b-41f61d66378d.gif)
@@ -88,4 +88,4 @@ Work involved:
 - PHP for loading carts
 - JSON for database
 
-Main Contributer: Abdul-Hakim Skaik, Ryan Li
+Main Contributer: Abdul-Hakim Skaik
