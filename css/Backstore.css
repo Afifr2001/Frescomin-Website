@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+img.Food{
+    width: 20%;
+    
+}
+
+div.image{
+    margin:0,auto;
+}
+
+h1.h12{
+    margin-bottom: 5%;
+
+}
+
+#backref:hover{
+    color:rgb(238, 238, 140);
+    transition: 0.5s;
+}
+
+#backref{
+    color: #34472e;
+}
+
+
+body {
+    caret-color: transparent;
+      background: #abdaa5;
+      font-family: 'Poppins';
+}
+
+h1{
+    text-align: center;
+}
+
+
+button:hover{
+    background-color: rgb(229, 236, 125);
+    transition: 0.5s;
+}
+
+button {
+    
+    display: inline-block;
+    background-color: #7daa6f;
+    border-radius: 1em;
+    cursor: pointer;
+    border: 4px ridge #4b5842;
+    color: #e9eee5;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.5s;
+    margin: 0.5em;
+    width: auto;
+   
+}
+.orderlist{  
+    border: #4b6445 double;
+    width: auto;
+    text-align: center;
+    background-color: #9fc58c;
+    border-collapse:collapse ;
+}
+
+#addbtn{
+    position: relative ;
+    margin: auto ;
+    padding: 0px;
+    width: 50% !important;
+    height: 50% !important;
+    color: black;
+    border: double 1px rgb(64, 82, 52);
+}
+
+table.orderlist{
+    position: inherit;
+    margin:auto;
+    width:80%;
+}
+
+button.editb{
+    width: 20px !important;
+    height: 20px !important;
+    text-align: center;
+    padding: 0px;
+    border: 1px !important;
+}
+
+
+
+tr{
+    height: 10%;
+}
+
+ td, tr{
+    background-color: rgba(60, 60, 90, 0);
+    
+    border-collapse: collapse;
+}
+
+
+
+.Food{
+    padding-left: 45px;
+    margin-right: 0;
+}
+
+.nameItem{
+    margin-right: 25px;
+}
+
+div.open{
+    margin-top: 0;
+}
+
+.clicker {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(159, 204, 122);
+    outline: none;
+    cursor: pointer;
+    color:#FFF;
+    display:block;
+    border-radius: 5em;
+    text-align: center;
+  }
+  
+  .hiddendiv {
+    display: none;
+    height: auto;
+   
+    border:ridge 5px rgba(112, 106, 106, 0.514);
+    border-top: none;
+    border-bottom-left-radius: 8em;
+    border-bottom-right-radius: 8em;
+    background-color: rgb(115, 151, 91);
+    padding: 5% 0;
+    margin: 0 5% 0 5%;
+  }
+
+  table{
+      position: relative;
+      left: 5em;
+  }
+  
+  .clicker:focus+.hiddendiv {
+    display: block;
+  }
+  .hidden{
+    margin-left:-999px;
+  }
+
+  input#toggle1:checked + label + div.open{
+   display:block;
+  }
+
+  input#toggle2:checked + label + div.open{
+    display:block;
+   }
+
+  
+
+hr{
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-style: dotted;
+    border-width: thick;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+    width: 50%;
+    color: rgb(66, 133, 63);;
+}
+  
+.addOrder{
+    position: relative;
+    left: 55%;
+}
+
+.editing{
+    border: #4b6445 double;
+    width: auto;
+    text-align: center;
+    border-collapse:collapse ;
+    background-color: #9fc58c;
+}
+
+
+form{
+    padding:0 10% 0 10%;
+}
+
+table.editing{
+ 
+    width: 100% ;
+    padding: 0 !important;
+    left: -2px;
+   
+}
+
+button.save{
+    border: ridge,#34472e;
+    width: 20%;
+    margin: 5% 75%;
+}
+
+input{ 
+ width: auto;
+ text-align: center;
+ cursor: default;
+ background-color: #9fc58c;
+}
